@@ -7,9 +7,9 @@
  */
 
 
-#include "../include/RCC_interface.h"
-#include "../include/RCC_config.h"
-#include "../include/RCC_private.h"
+#include "RCC_interface.h"
+#include "RCC_config.h"
+#include "RCC_private.h"
 
 
 static void RCC_voidClockSource(uint8 Copy_u8xClock);
@@ -19,7 +19,7 @@ static void RCC_voidClockSource(uint8 Copy_u8xClock);
 static void RCC_voidPLL_Clock_Source(uint8 Copy_u8xPLL_Source);
 
 
-void RCC_voidClockInit(RCC_Config_t *RCC_Config)
+void MRCC_voidClockInit(RCC_Config_t *RCC_Config)
 {
 	if(NULL == RCC_Config)
 	{
@@ -43,7 +43,7 @@ void RCC_voidClockInit(RCC_Config_t *RCC_Config)
 }
 
 
-void RCC_voidPeripheralClockEnable(uint8 Copy_u8BusName, RCC_Peripheral_t Copy_u8PeripheralName)
+void MRCC_voidPeripheralClockEnable(uint8 Copy_u8BusName, RCC_Peripheral_t Copy_u8PeripheralName)
 {
 	switch(Copy_u8BusName)
 	{
@@ -66,7 +66,7 @@ void RCC_voidPeripheralClockEnable(uint8 Copy_u8BusName, RCC_Peripheral_t Copy_u
 }
 
 
-void RCC_voidPeripheralClockDisable(uint8 Copy_u8BusName, RCC_Peripheral_t Copy_u8PeripheralName)
+void MRCC_voidPeripheralClockDisable(uint8 Copy_u8BusName, RCC_Peripheral_t Copy_u8PeripheralName)
 {
 	switch(Copy_u8BusName)
 	{
