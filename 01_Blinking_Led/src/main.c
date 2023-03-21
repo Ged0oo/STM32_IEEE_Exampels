@@ -19,6 +19,7 @@ RCC_Config_t RCC_obj =
 };
 
 
+
 void main(void)
 {
 	RCC_voidPeripheralClockEnable(RCC_APB2_BUS , RCC_GPIOA_CLOCK);
@@ -46,3 +47,4 @@ void main(void)
 		for(uint32 i=0 ; i<1000000 ; i++);
 	}
 }
+
