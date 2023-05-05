@@ -1,0 +1,7 @@
+../Src/RCC_program.c:22:6:MRCC_voidClockInit	16	static
+../Src/RCC_program.c:46:6:MRCC_voidPeripheralClockEnable	16	static
+../Src/RCC_program.c:69:6:MRCC_voidPeripheralClockDisable	16	static
+../Src/RCC_program.c:93:13:RCC_voidClockSource	16	static
+../Src/RCC_program.c:158:13:RCC_voidPLL_Clock_Source	16	static
+../Src/RCC_program.c:213:13:RCC_voidPLL_Mul	16	static
+../Src/RCC_program.c:219:13:RCC_voidBus_Prescaler	16	static
