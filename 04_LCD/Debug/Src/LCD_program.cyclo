@@ -1,0 +1,10 @@
+LCD_program.c:45:6:lcd_4bit_intialize	6
+LCD_program.c:91:6:lcd_4bit_send_command	2
+LCD_program.c:108:6:lcd_4bit_send_custom_char	3
+LCD_program.c:126:6:lcd_4bit_send_char_data	2
+LCD_program.c:143:6:lcd_4bit_send_char_data_pos	2
+LCD_program.c:158:6:lcd_4bit_send_string	3
+LCD_program.c:174:6:lcd_4bit_send_string_pos	3
+LCD_program.c:191:13:lcd_send_4bits	1
+LCD_program.c:200:13:lcd_4bit_send_enable_signal	2
+LCD_program.c:209:13:lcd_4bit_set_cursor	5
