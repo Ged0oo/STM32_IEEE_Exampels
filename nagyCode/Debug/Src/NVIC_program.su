@@ -1,0 +1,8 @@
+../Src/NVIC_program.c:17:6:NVIC_xEnableInterrupt	16	static
+../Src/NVIC_program.c:26:6:NVIC_xDisableInterrupt	16	static
+../Src/NVIC_program.c:35:6:NVIC_xSetPendingFlag	16	static
+../Src/NVIC_program.c:44:6:NVIC_xClearPendingFlag	16	static
+../Src/NVIC_program.c:53:6:NVIC_xReadIntState	16	static
+../Src/NVIC_program.c:62:10:NVIC_xCheck_CurrentInt	16	static
+../Src/NVIC_program.c:80:6:NVIC_xSetPriority	16	static
+../Src/NVIC_program.c:89:8:NVIC_xGetPriority	16	static
