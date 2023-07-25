@@ -1,4 +1,0 @@
-../Src/GPIO_program.c:19:6:GPIO_voidInitPortPin	24	static
-../Src/GPIO_program.c:32:13:GPIO_voidConfgPin_Mode	16	static
-../Src/GPIO_program.c:62:6:GPIO_voidWritePortPin	16	static
-../Src/GPIO_program.c:80:7:GPIO_u8ReadPortPin	16	static

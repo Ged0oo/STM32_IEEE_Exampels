@@ -1,4 +1,0 @@
-../Src/LED_program.c:16:6:LED_vInit	24	static
-../Src/LED_program.c:36:6:LED_vSetState	16	static
-../Src/LED_program.c:49:6:LED_vToggle	16	static
-../Src/LED_program.c:63:12:LED_xGetState	16	static

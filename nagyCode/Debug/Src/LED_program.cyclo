@@ -1,4 +1,0 @@
-../Src/LED_program.c:16:6:LED_vInit	2
-../Src/LED_program.c:36:6:LED_vSetState	2
-../Src/LED_program.c:49:6:LED_vToggle	2
-../Src/LED_program.c:63:12:LED_xGetState	2

@@ -1,4 +1,0 @@
-../Src/DC_MOTOR_program.c:16:6:dc_motor_initialize	16	static
-../Src/DC_MOTOR_program.c:34:6:dc_motor_move_right	16	static
-../Src/DC_MOTOR_program.c:48:6:dc_motor_move_left	16	static
-../Src/DC_MOTOR_program.c:62:6:dc_motor_stop	16	static
