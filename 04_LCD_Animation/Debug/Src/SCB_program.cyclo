@@ -1,0 +1,2 @@
+../Src/SCB_program.c:23:6:SCB_vSetPriorityGroup	1
+../Src/SCB_program.c:41:8:SCB_vGetPriorityGroup	1
