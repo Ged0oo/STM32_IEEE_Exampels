@@ -2,17 +2,12 @@
 #include "STD_TYPES.h"
 #include "RCC_interface.h"
 #include "GPIO_interface.h"
-#include "KEYPAD_interface.h"
 #include "LCD_interface.h"
 #include "LED_interface.h"
-#include "NVIC_interface.h"
-#include "SCB_interface.h"
-
 
 extern RCC_Config_t RCC_obj;
 extern ST_Keypad_t keypad_1;
 extern chr_lcd_4bit_t lcd_1;
-
 
 LED_ConfigType led_1 =
 {
@@ -36,23 +31,15 @@ int main(void)
 	LED_vInit(&led_1);
 
 	lcd_4bit_intialize(&lcd_1);
-	lcd_4bit_send_string_pos(&lcd_1, 1, 2, "It's Happening");
 
-	lcd_4bit_send_custom_char(&lcd_1, customChar1, 2, 2, 1);
-	lcd_4bit_send_custom_char(&lcd_1, customChar1, 2, 3, 1);
-	lcd_4bit_send_custom_char(&lcd_1, customChar1, 2, 4, 1);
-	lcd_4bit_send_custom_char(&lcd_1, customChar1, 2, 1, 1);
-	lcd_4bit_send_custom_char(&lcd_1, customChar1, 2, 6, 1);
-	lcd_4bit_send_custom_char(&lcd_1, customChar1, 2, 7, 1);
-	lcd_4bit_send_custom_char(&lcd_1, customChar1, 2, 8, 1);
-	lcd_4bit_send_custom_char(&lcd_1, customChar1, 2, 9, 1);
-	lcd_4bit_send_custom_char(&lcd_1, customChar1, 2, 10,1);
-	lcd_4bit_send_custom_char(&lcd_1, customChar1, 2, 11,1);
-	lcd_4bit_send_custom_char(&lcd_1, customChar1, 2, 12,1);
-	lcd_4bit_send_custom_char(&lcd_1, customChar1, 2, 13,1);
-	lcd_4bit_send_custom_char(&lcd_1, customChar1, 2, 14,1);
-	lcd_4bit_send_custom_char(&lcd_1, customChar1, 2, 15,1);
+	lcd_4bit_send_string_pos(&lcd_1, 1, 2, "Itzz Happening");
+	lcd_4bit_send_custom_char(&lcd_1, customChar3, 2, 1, 3);
+
+	for(uint8 counter=2 ; counter<16 ; counter++)
+		lcd_4bit_send_custom_char(&lcd_1, customChar1, 2, counter, 1);
+
 	lcd_4bit_send_custom_char(&lcd_1, customChar2, 2, 16,2);
+
 	while(1)
 	{
 		for(uint8 counter=1 ; counter<16 ; counter++)
@@ -74,4 +61,3 @@ int main(void)
 		lcd_4bit_send_custom_char(&lcd_1, customChar2, 2, 16, 2);
 	}
 }
-
