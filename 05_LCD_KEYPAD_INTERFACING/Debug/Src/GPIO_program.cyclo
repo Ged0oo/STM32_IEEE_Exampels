@@ -1,0 +1,4 @@
+../Src/GPIO_program.c:19:6:MGPIO_voidInitPortPin	2
+../Src/GPIO_program.c:32:13:MGPIO_voidConfgPin_Mode	4
+../Src/GPIO_program.c:62:6:MGPIO_voidWritePortPin	3
+../Src/GPIO_program.c:80:7:MGPIO_u8ReadPortPin	2

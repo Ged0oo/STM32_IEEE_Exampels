@@ -1,0 +1,2 @@
+../Src/SCB_program.c:23:6:MSCB_vSetPriorityGroup	16	static
+../Src/SCB_program.c:41:8:MSCB_vGetPriorityGroup	4	static

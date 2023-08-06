@@ -1,0 +1,13 @@
+../Src/LCD_program.c:48:6:lcd_4bit_intialize	4
+../Src/LCD_program.c:89:6:lcd_4bit_send_command	2
+../Src/LCD_program.c:107:6:lcd_4bit_send_custom_char	3
+../Src/LCD_program.c:125:6:lcd_4bit_send_char_data	2
+../Src/LCD_program.c:143:6:lcd_4bit_send_char_data_pos	2
+../Src/LCD_program.c:158:6:lcd_4bit_send_string	3
+../Src/LCD_program.c:174:6:lcd_4bit_send_string_pos	3
+../Src/LCD_program.c:191:6:LCD_Clear	1
+../Src/LCD_program.c:197:6:LCD_WriteNumber	4
+../Src/LCD_program.c:217:6:LCD_WriteNumber_Position	4
+../Src/LCD_program.c:238:13:lcd_send_4bits	1
+../Src/LCD_program.c:247:13:lcd_4bit_send_enable_signal	3
+../Src/LCD_program.c:257:13:lcd_4bit_set_cursor	5
