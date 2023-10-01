@@ -40,7 +40,6 @@ chr_lcd_4bit_t lcd_1 =
 };
 
 
-
 void lcd_4bit_intialize(chr_lcd_4bit_t *lcd)
 {
 	uint8 l_data_pins_counter = 0;
