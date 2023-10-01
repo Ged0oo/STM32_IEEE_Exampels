@@ -39,7 +39,6 @@ chr_lcd_4bit_t lcd_1 =
 	.lcd_data[3].GPIO_PinNumber = LCD_DATA_7
 };
 
-
 void lcd_4bit_intialize(chr_lcd_4bit_t *lcd)
 {
 	uint8 l_data_pins_counter = 0;
