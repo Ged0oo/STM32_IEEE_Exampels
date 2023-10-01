@@ -11,7 +11,6 @@
 #include "LCD_interface.h"
 #include "LCD_config.h"
 
-
 static void lcd_send_4bits(chr_lcd_4bit_t *lcd, uint8 _data_command);
 static void lcd_4bit_send_enable_signal(chr_lcd_4bit_t *lcd);
 static void lcd_4bit_set_cursor(chr_lcd_4bit_t *lcd, uint8 row, uint8 coulmn);
