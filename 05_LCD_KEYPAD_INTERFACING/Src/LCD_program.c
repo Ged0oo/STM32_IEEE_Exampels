@@ -6,7 +6,6 @@
  * Created on MAY 5, 2023, 8:41 PM
  */
 
-
 #include "STD_TYPES.h"
 #include "BIT_MATH.h"
 #include "LCD_interface.h"
